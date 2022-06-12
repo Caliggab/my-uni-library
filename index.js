@@ -4,6 +4,7 @@ const cors = require("cors");
 const pool = require("./db");
 const path = require("path");
 const PORT = process.env.PORT || 5000;
+const bodyParser = require("body-parser");
 
 //
 
@@ -22,6 +23,8 @@ if (process.env.NODE_ENV === "production") {
 
 console.log(__dirname);
 console.log(path.join(__dirname, "client/build"));
+app.use(bodyParser.json());
+app.use(bodyParser.urlencoded({ extended: true }));
 
 //-------Routes-----//
 
