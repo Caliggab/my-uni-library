@@ -25,7 +25,6 @@ function App() {
     try {
       const response = await fetch("/users");
       const jsonData = await response.json();
-
       setUsers(jsonData);
     } catch (error) {
       console.error(error.message);
