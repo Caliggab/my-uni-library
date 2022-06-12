@@ -36,7 +36,7 @@ function App() {
   const getBooks = async () => {
     try {
       const response = await fetch("/books");
-      const jsonData = await JSON.parse(response);
+      const jsonData = await response.json();
 
       setCurrentList(jsonData);
     } catch (error) {
