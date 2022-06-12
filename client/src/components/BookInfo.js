@@ -24,7 +24,7 @@ function BookInfo(props) {
         }
       });
     }
-  }, [props.book.book_id, props.currentUser.borrowed]);
+  }, [props.book.book_id, props.currentUser.borrowed, borrowedIds]);
 
   const onBorrowHandler = () => {
     setIsAlreadyBorrowed(true);
