@@ -18,6 +18,6 @@ prodConfig = {
   },
 };
 
-const pool = new Pool(proConfig);
+const pool = new Pool(prodConfig);
 
 module.exports = pool;
