@@ -44,7 +44,7 @@ app.post("/users", async (req, res) => {
 
 //GET all users
 
-app.get("/api/users", async (req, res) => {
+app.get("/users", async (req, res) => {
   try {
     const allUsers = await pool.query("SELECT * FROM users");
     res.json(allUsers.rows);
@@ -120,7 +120,7 @@ app.post("/books", async (req, res) => {
 
 //GET all books
 
-app.get("/api/books", async (req, res) => {
+app.get("/books", async (req, res) => {
   try {
     const allBooks = await pool.query("SELECT * FROM books");
 
