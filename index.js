@@ -11,6 +11,8 @@ const bodyParser = require("body-parser");
 //middleware
 app.use(cors());
 app.use(express.json()); // => allows us to access the req.body
+app.use(bodyParser.json());
+app.use(bodyParser.urlencoded({ extended: true }));
 
 // app.use(express.static(path.join(__dirname, "client/build")));
 // app.use(express.static("./client/build")); => for demonstration
@@ -23,8 +25,6 @@ if (process.env.NODE_ENV === "production") {
 
 console.log(__dirname);
 console.log(path.join(__dirname, "client/build"));
-app.use(bodyParser.json());
-app.use(bodyParser.urlencoded({ extended: true }));
 
 //-------Routes-----//
 
