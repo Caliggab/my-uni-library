@@ -1,0 +1,75 @@
+.error {
+    text-align: center;
+    margin-top: 1em;
+    color: red;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+}
+
+.title {
+    text-align: center;
+    font-size: 2rem;
+    margin: 1em 0;
+}
+
+.input {
+    height: 2rem;
+    width:80%;
+    align-self: center;
+    margin-bottom: 1em;
+}
+
+.input:last-of-type{
+    margin-bottom: 2em;
+}
+
+.logInButton {
+    background-color: white; 
+    color: black; 
+    border: 2px solid #4CAF50;
+    padding: 15px 20px;
+    margin-top: 0.5em;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1.5em;
+    border-radius: 15px;
+    transition-duration: 0.4s;
+  cursor: pointer;
+  }
+  
+  .logInButton:hover {
+    background-color: #4CAF50;
+    color: white;
+  }
+
+.closeButton {
+    position: absolute;
+    right: 0;
+    top: 0;
+    background-color: white; 
+    padding: 0;
+  color: red; 
+  border: 2px solid #f44336;
+  text-align: center;
+  border-radius: 50%;
+  width: 40px; 
+  height: 40px;
+  transform: translate(20px, -20px);
+  transition-duration: 0.4s;
+  cursor: pointer;
+  
+}
+
+.closeButton:hover {
+    background-color: #f44336;
+    color: white;
+  }

@@ -1,0 +1,15 @@
+.container {
+    margin-top: 2em;
+    width: 90vw;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 1.5em;
+    margin: auto;
+}
+
+.empty {
+    text-align: center;
+    font-size: 2em;
+}
+

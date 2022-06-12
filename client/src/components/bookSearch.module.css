@@ -1,0 +1,32 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 30vw;
+    margin: auto;
+    padding: 3em;
+    justify-content: center;
+    text-align: center;
+    font-size: 2em;
+}
+
+.form {
+    margin-top: 1em;
+    display: flex;
+    justify-content: center;
+    height: 2rem;
+    display: flex;
+    width: 50vw;
+    align-self: center;
+}
+
+.query {
+    width: 50%
+}
+
+.category {
+    width: 30%
+}
+
+.button {
+    width: 20%
+}

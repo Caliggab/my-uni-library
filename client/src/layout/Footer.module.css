@@ -1,0 +1,20 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 30vw;
+    margin: auto;
+    padding: 3em;
+    justify-content: center;
+    text-align: center;
+    margin-top: 2em;
+}
+
+.copy {
+    font-size: 1.7em;
+
+}
+
+.name {
+    font-size: 1.3em;
+    margin: 0.5em;
+}
