@@ -6,10 +6,10 @@ A simple library management system with a database and CRUD functionality with t
 
 Tech-Stack: 
 
--React front end with Hooks
--Postgresql Database
--Node.js
--Express
--Vainilla CSS
+- React front end with Hooks
+- Postgresql Database
+- Node.js
+- Express
+- Vainilla CSS
 
 Published project in Heroku: https://my-uni-library.herokuapp.com/
